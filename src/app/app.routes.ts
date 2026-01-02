@@ -15,8 +15,6 @@ export const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: () => {
-      return 'about'
-    },
+    redirectTo: 'about'
   }
 ];
